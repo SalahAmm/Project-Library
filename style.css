@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffdbb58f;
+    height: 100vh;
+}
+
+.open-dialog {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    color: white;
+    background-color: #FCD0A1;
+    border-radius: 10px;
+    border: 1px solid rgb(133, 133, 133);
+    
+}
+
+dialog {
+    border-radius: 10px;
+    border: 1px black solid;
+    padding: 20px;
+    margin: auto;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+form div {
+    width: 80%;
+}
+
+form label {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+form input {
+    border-radius: 10px;
+    border: 1px solid rgb(139, 138, 138);
+
+}
+form .submit input {
+
+    padding: 10px;
+
+}
+
+
+form .close {
+    border-radius: 10px;
+    border: 1px solid rgb(139, 138, 138);
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px ,1fr));
+    gap:20px;
+    margin: 40px auto;
+    width: 90%;
+    
+}
+
+.books .book-card {
+    background-color: white;
+    border: 1px solid black;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 20px;
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.book-card .heading {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.books .book-card .content {
+    padding-top: 10px;
+}
+
+.book-card button {
+    padding: 7px;
+    color:white;
+    background-color: rgb(105, 98, 98);
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
